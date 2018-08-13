@@ -1,11 +1,202 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>Chelsea Alejandro</title>
-   </head>  
-   
-   <body>
-    <h1>HELLO</h1>
-   </body>
-   
+
+<head>
+	<meta charset="UTF-8">
+    <title>✨ about me ✨</title>
+    <style>
+
+    	@font-face{
+    		font-family:headerFont;
+    		src: url(fonts/GT-Walsheim-Pro-Trial-Medium.otf);
+    	}
+
+    	@font-face{
+    		font-family:headerFont2;
+    		src: url(fonts/Proxima-Nova-Bold.ttf);
+    	}
+
+    	@font-face{
+    		font-family:bodyFont;
+    		src: url(fonts/Proxima-Nova-Thin.ttf);
+    	}
+
+		body{
+			margin:0;
+		}
+
+		h1,h2{
+			margin:0;
+		}
+
+		/*Setting background*/
+		#header{
+			background-image: URL("icons/head.jpeg");
+			
+			/*Photo by Moose Photos from Pexels*/
+
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size:cover;
+			height: 100vh;
+			width: 100%;
+			border: 0;
+			padding: 0;
+			margin: 0;
+		}
+
+		#info{
+			background-image: url("icons/head2.jpeg");
+			/*Photo by Moose Photos from Pexels*/
+			background-position: center right;
+			background-repeat: no-repeat;
+			background-size:cover;
+			height: 100vh;
+			width: 100%;
+			border:0;
+			padding: 0;
+			margin: 0;
+		}
+
+		#text{
+			border-style: solid;
+			border:0;
+			width:35%;
+			padding:3vw;
+			position:relative;
+			top:10vh;
+			line-height: 1.5;
+			text-align:left;
+		}
+		/*Setting text properties*/
+		h1{
+			font-family: headerFont;
+			letter-spacing: 1vw;
+			font-size:12vh;
+			border-style:solid;
+			border-color: #303030;
+			display:inline-block;
+			margin-top:15vh;
+			margin-left:8vw;
+			margin-right:5vw;
+			margin-bottom:13vh;
+			padding:2vw;
+			color:#303030;
+		}
+
+		h2{
+			font-family:headerFont2;
+			font-size:5vh;
+			color:#303030;
+			font-weight:normal;
+			text-transform:uppercase;
+			border-style: solid;
+			border-color: #303030;
+			float:right;
+			letter-spacing: 1vw;
+			padding:0.5vw;
+			margin-top:2vw;
+			position:relative;
+			right:35vw;
+
+		}
+
+		b{
+			font-family:headerFont2;
+			font-weight:normal;
+		}
+
+		.label, .label2{
+			font-family: headerFont2;
+			color:#303030;
+			font-size:2.5vh;
+			
+		}
+
+		.value,.value2{
+			font-family:bodyFont;
+			color:#303030;
+			font-size:2.5vh;
+		}
+		
+		/*Images*/
+		img{
+			height:17vh;
+			margin-top:5vh;
+
+		}
+
+		#fb{
+			margin-left:10vw;
+		}
+
+		#ig{
+			margin-left:7vw;
+		}
+
+		#twitter{
+			margin-left:30vw;
+		}
+
+		#twitch{
+			margin-left:5vw;
+		}
+
+		#dp{
+			float:right;
+			width:35vw;
+			height:35vw;
+			margin-right:4vw;
+			margin-top:20vh;
+			display:inline;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<div id="header">
+		<h1>CHELSEA ALEJANDRO</h1>
+		
+		<a href="https://www.facebook.com/chels.alejandro"><img id="fb" alt="fb.com/chels.alejandro" src="icons/fb.png"></a>
+
+		<a href="https://www.instagram.com/stxrshipped"><img id="ig" alt="instagram.com/stxrshipped" src="icons/ig.png"></a>
+
+		<a href="https://www.twitter.com/chelsealjndr"><img id="twitter" alt="twitter.com/chelsealjndr" src=
+		"icons/twitter.png"></a>
+
+		<a href="https://www.twitch.tv/starshipped">
+		<img id="twitch" alt="twitch.tv/starshipped" src="icons/twitch.png"></a>
+	</div>
+
+	
+	<img id="dp" src="icons/dp.png" alt="Chelsea Alejandro">
+	<div id="info">
+
+		
+		<h2>About Me</h2>
+
+		<div id="text">
+		<span class="value">Hi! You can call me <b>Chelsea</b>. You can usually catch me <b>playing video games, watching YouTube videos or Twitch streams, browing Pinterest, taking pictures, or sleeping</b>. I love <b>ice cream, spicy noodles, and peanut butter</b> and my favorite color is <b>blue</b>. My <b>social media</b> are above, just click on the icons! :)</span><br><br>
+		
+		<span class="label2">Why I took Development Communication</span>
+		<br>
+		<span class="value2">I've always had a desire to do something that would change lives for the better. And, I've always liked writing, so I thought that taking DevCom would give me that sense of fulfillment.</span>
+		<br><br>
+
+		<span class="label2">Favorite CMSC subject so far</span>
+		<br>
+		<span class="value2">CMSC 22. I love games, and I really enjoyed the process of trying to make a game. It's given me a much deeper understanding of how a game is developed and in turn, I gained a greater appreciation for games--even more than I already did. </span>
+		<br><br>
+
+		<span class="label2">Favorite programming language</span>
+		<br>
+		<span class="value2">Java, because of my interest in games. :D</span>
+		</div>
+	</div>
+
+
+</body>
+
 </html>
